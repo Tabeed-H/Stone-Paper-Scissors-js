@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <script src="./Assests/main.js"></script>
+    <link rel="stylesheet" href="./Assests/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Test</title>
+</head>
+<body>
+    <div id="container">
+        <div class="heading">
+            <p>Stone / <span class="paper">Paper</span> / Scissors</p>
+        </div>
+        <hr class="line">
+        <div id="chosen">
+           <div class="c1">
+            <h2 class="playerinfo">PLAYER 1</h2>
+            <img id="playerChoiceImg" class="playerImg img" src="/./Assests/paper.png">
+            <p id="player">Player's choise </p>
+           </div>
+           <div class="c1">
+            <h2 class="playerinfo">Computer</h2>
+            <img id="compChoiceImg" class="compImg img" src="./Assests/paper.png">
+            <p id="computer">Computer's choice </p>
+           </div>
+        </div>
+        <p>Player Options :</p>
+        <div id="buttons-options">
+            <button id="button" class="btn" onclick="com();rock()"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
+            <button id="button1" class="btn" onclick="com();paper()"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button>
+            <button id="button2" class="btn" onclick="com();scissor()"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
+        </div>
+        <div id="result">
+            <h1>result</h1>
+            <h1 id="final"></h1>
+        </div>
+    </div>
+</body>
