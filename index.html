@@ -11,7 +11,6 @@
 
     <!--local files-->
     <link rel="stylesheet" href="./Assests/index.css">
-    <script src="./Assests/main.js"></script>
     <title>JS- Game</title>
 </head>
 <body>
@@ -60,13 +59,13 @@
         <div id="buttons-options">
 
             <!--button with option set to 'rock'-->
-            <button id="button" class="btn" onclick="com();rock()"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
+            <button id="button" class="btn" onclick="compChoiceGenerater();rock()"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
 
             <!--button with option set to 'paper'-->
-            <button id="button1" class="btn" onclick="com();paper()"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button>
+            <button id="button1" class="btn" onclick="compChoiceGenerater();paper()"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button>
 
             <!--button with option set to 'scissors'-->
-            <button id="button2" class="btn" onclick="com();scissor()"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
+            <button id="button2" class="btn" onclick="compChoiceGenerater();scissor()"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
 
         </div>
 
@@ -81,5 +80,8 @@
 
         </div>
     </div>
+
+    <!--gets the main script-->
+    <script src="./Assests/main.js"></script>
 </body>
 </html>
